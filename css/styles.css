@@ -1,0 +1,645 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC&family=Dancing+Script:wght@700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  background-color: #f5e3d2;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin-bottom: 16px;
+}
+
+nav {
+  height: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 20px;
+}
+nav div {
+  font-family: "Dancing Script", cursive;
+  color: #ec4747;
+  font-size: 30px;
+}
+nav a {
+  text-decoration: none;
+  color: #ec4747;
+  font-size: 30px;
+  font-family: "Amatic SC", cursive;
+}
+nav a:hover {
+  color: white;
+}
+
+@media only screen and (max-width: 1060px) {
+  nav a {
+    padding-left: 10px;
+  }
+}
+footer {
+  height: 100px;
+  width: 100%;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+footer .followtxt {
+  font-family: "Dancing Script", cursive;
+  color: #ec4747;
+  font-size: 30px;
+}
+footer .socials {
+  font-size: 20px;
+  color: white;
+  display: flex;
+  font-size: 30px;
+  width: 100px;
+  margin: 0 auto;
+  color: #ec4747;
+}
+footer .socials .facebook {
+  padding-right: 10px;
+  cursor: pointer;
+}
+footer .socials .instagram {
+  padding-right: 10px;
+  cursor: pointer;
+}
+footer .socials .twitter {
+  cursor: pointer;
+}
+
+.register {
+  max-width: 600px;
+  margin: 0 auto;
+  margin-top: 200px;
+}
+.register h1 {
+  color: #6CBBC4;
+  text-align: center;
+  padding-bottom: 10px;
+}
+.register .inputs {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.register .inputs .user {
+  margin-bottom: 40px;
+  height: 50px;
+  background-color: white;
+}
+.register .inputs .pass {
+  margin-bottom: 40px;
+  height: 50px;
+  background-color: white;
+}
+.register .inputs ::placeholder {
+  color: #6CBBC4;
+  padding-left: 10px;
+}
+.register button {
+  color: #6CBBC4;
+  background-color: white;
+  width: 80px;
+  margin: 0 auto;
+  cursor: pointer;
+}
+.register .alreadymember {
+  padding-top: 10px;
+  color: #ec4747;
+}
+.register .alreadymember .signIn {
+  color: #6CBBC4;
+  text-decoration: underline;
+}
+
+@media only screen and (max-width: 1060px) {
+  .register {
+    padding: 20px;
+  }
+}
+.login {
+  max-width: 600px;
+  margin: 0 auto;
+  margin-top: 200px;
+}
+.login h1 {
+  color: #6CBBC4;
+  text-align: center;
+  padding-bottom: 10px;
+}
+.login .inputs {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.login .inputs .user {
+  margin-bottom: 40px;
+  height: 50px;
+  background-color: white;
+}
+.login .inputs .pass {
+  margin-bottom: 40px;
+  height: 50px;
+  background-color: white;
+}
+.login .inputs ::placeholder {
+  color: #6CBBC4;
+  padding-left: 10px;
+}
+.login button {
+  color: #6CBBC4;
+  background-color: white;
+  width: 80px;
+  margin: 0 auto;
+  cursor: pointer;
+}
+.login .needaccount {
+  padding-top: 10px;
+  color: #ec4747;
+}
+.login .needaccount .createaccount {
+  color: #6CBBC4;
+  text-decoration: underline;
+}
+
+@media only screen and (max-width: 1060px) {
+  .login {
+    padding: 20px;
+  }
+}
+.contact {
+  max-width: 600px;
+  margin: 0 auto;
+  margin-top: 200px;
+}
+.contact h1 {
+  color: #6CBBC4;
+  text-align: center;
+  padding-bottom: 10px;
+}
+.contact .inputs {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.contact .inputs .fullName {
+  margin-bottom: 40px;
+  height: 50px;
+  background-color: white;
+}
+.contact .inputs .email {
+  margin-bottom: 40px;
+  height: 50px;
+  background-color: white;
+}
+.contact .inputs .message {
+  margin-bottom: 40px;
+  height: 100px;
+  background-color: white;
+}
+.contact .inputs ::placeholder {
+  color: #6CBBC4;
+  padding-left: 10px;
+  position: absolute;
+  padding-top: 15px;
+}
+.contact button {
+  color: #6CBBC4;
+  background-color: white;
+  width: 80px;
+  margin: 0 auto;
+  cursor: pointer;
+}
+.contact .alreadymember {
+  padding-top: 10px;
+  color: #ec4747;
+}
+.contact .alreadymember .signIn {
+  color: #6CBBC4;
+  text-decoration: underline;
+}
+
+@media only screen and (max-width: 1060px) {
+  .contact {
+    padding: 20px;
+  }
+}
+.hero {
+  max-width: 1700px;
+  height: 700px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../images/donuthero.jpg);
+  background-position: center;
+  background-size: contain;
+  margin: 0 auto;
+}
+.hero .homeTxt {
+  padding-top: 200px;
+  max-width: 850px;
+  margin: 0 auto;
+}
+.hero .homeTxt .heroTitle {
+  font-family: "Dancing Script", cursive;
+  color: #ec4747;
+  font-size: 80px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+.hero .homeTxt .sweetNeed {
+  font-size: 30px;
+  color: #ffaaaa;
+  padding-bottom: 80px;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+}
+.hero .homeTxt .heroBtn {
+  color: #6CBBC4;
+  background-color: white;
+  width: 170px;
+  height: 50px;
+  margin: 0 auto;
+  cursor: pointer;
+  margin-left: 330px;
+  border: none;
+}
+.hero .homeTxt .heroBtn:hover {
+  background-color: lightgray;
+}
+
+.squig {
+  text-align: center;
+}
+
+.bottom-section {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.bottom-section h1 {
+  font-family: "Amatic SC", cursive;
+  color: #ec4747;
+  font-size: 50px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+.bottom-section .blogPost {
+  display: flex;
+  padding-bottom: 50px;
+}
+.bottom-section .blogPost .date {
+  width: 60px;
+  height: 60px;
+  background-color: #ec4747;
+  margin-right: 20px;
+}
+.bottom-section .blogPost .date .dateTxt {
+  color: white;
+  font-size: 18px;
+  font-family: GillSans;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-top: 10px;
+}
+.bottom-section .blogPost .picandTxt .blogPic {
+  width: 900px;
+  height: 259px;
+  background-image: url(../images/blog1.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.bottom-section .blogPost .picandTxt .blogPic2 {
+  width: 900px;
+  height: 259px;
+  background-image: url(../images/blog2.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.bottom-section .blogPost .picandTxt .blogPic3 {
+  width: 900px;
+  height: 259px;
+  background-image: url(../images/blog3.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.bottom-section .blogPost .picandTxt .blogPic4 {
+  width: 900px;
+  height: 259px;
+  background-image: url(../images/blog4.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.bottom-section .blogPost .picandTxt .blogPic5 {
+  width: 900px;
+  height: 259px;
+  background-image: url(../images/blog5.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.bottom-section .blogPost .picandTxt .blogPic6 {
+  width: 900px;
+  height: 259px;
+  background-image: url(../images/blog6.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.bottom-section .blogPost .picandTxt .blogP {
+  padding-top: 10px;
+  font-size: 18px;
+  color: black;
+  max-width: 900px;
+}
+.bottom-section .foodPics {
+  display: flex;
+  width: 1000px;
+  padding-bottom: 20px;
+  justify-content: space-around;
+}
+.bottom-section .foodPics .foodpic {
+  width: 300px;
+  height: 300px;
+  background-image: url(../images/burger.png);
+  background-position: center;
+  background-size: cover;
+}
+.bottom-section .foodPics .foodpic2 {
+  width: 300px;
+  height: 300px;
+  background-image: url(../images/wings.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.bottom-section .foodPics .foodpic3 {
+  width: 300px;
+  height: 300px;
+  background-image: url(../images/cnady.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.bottom-section .foodPics .foodpic4 {
+  width: 300px;
+  height: 300px;
+  background-image: url(../images/salad.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.bottom-section .foodPics .foodpic5 {
+  width: 300px;
+  height: 300px;
+  background-image: url(../images/steak.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.bottom-section .foodPics .foodpic6 {
+  width: 300px;
+  height: 300px;
+  background-image: url(../images/pizza.png);
+  background-position: center;
+  background-size: cover;
+}
+
+@media only screen and (max-width: 1060px) {
+  .hero {
+    padding: 10px;
+    margin-top: 20px;
+  }
+  .hero .homeTxt .heroBtn {
+    margin: 0 auto;
+    margin-left: 150px;
+  }
+
+  .bottom-section .blogPost {
+    flex-direction: column;
+  }
+
+  .foodPics {
+    flex-direction: column;
+    padding-left: 90px;
+  }
+}
+.recipes {
+  width: 1200px;
+  margin: 0 auto;
+}
+.recipes h1 {
+  font-family: "Amatic SC", cursive;
+  color: #ec4747;
+  font-size: 50px;
+  text-align: center;
+  padding-top: 50px;
+}
+.recipes h2 {
+  font-family: "Amatic SC", cursive;
+  color: black;
+  font-size: 30px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+.recipes .recipesBox {
+  display: flex;
+  justify-content: space-around;
+}
+.recipes .recipesBox .recipePic {
+  width: 300px;
+  height: 300px;
+  background-image: url(../images/cookies.webp);
+  background-position: center;
+  background-size: cover;
+}
+.recipes .recipesBox .recipePic2 {
+  width: 300px;
+  height: 300px;
+  background-image: url(../images/beef.webp);
+  background-position: center;
+  background-size: cover;
+}
+.recipes .recipesBox .recipePic3 {
+  width: 300px;
+  height: 300px;
+  background-image: url(../images/steak.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.recipes .recipesBox .recipePic4 {
+  width: 300px;
+  height: 300px;
+  background-image: url(../images/waffle.webp);
+  background-position: center;
+  background-size: cover;
+}
+.recipes .recipesBox .recipePic5 {
+  width: 300px;
+  height: 300px;
+  background-image: url(../images//mashed.webp);
+  background-position: center;
+  background-size: cover;
+}
+.recipes .recipesBox .recipePic6 {
+  width: 300px;
+  height: 300px;
+  background-image: url(../images/carrot.webp);
+  background-position: center;
+  background-size: cover;
+}
+.recipes .recipesBox .recipePic7 {
+  width: 300px;
+  height: 300px;
+  background-image: url(../images/chicken.webp);
+  background-position: center;
+  background-size: cover;
+}
+.recipes .recipesBox .recipePic8 {
+  width: 300px;
+  height: 300px;
+  background-image: url(../images/cook.webp);
+  background-position: center;
+  background-size: cover;
+}
+.recipes .recipesBox .recipePic9 {
+  width: 300px;
+  height: 300px;
+  background-image: url(../images/rice.webp);
+  background-position: center;
+  background-size: cover;
+}
+.recipes .recipesBox h3 {
+  color: black;
+  font-size: 30px;
+  padding-top: 50px;
+  text-align: center;
+}
+.recipes .recipesBox p {
+  color: black;
+  width: 300px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 1060px) {
+  .recipes h1 {
+    margin-right: 720px;
+  }
+  .recipes h2 {
+    margin-right: 720px;
+  }
+  .recipes .recipesBox {
+    flex-direction: column;
+    margin-right: 720px;
+  }
+  .recipes .recipesBox .recipePic {
+    margin: 0 auto;
+  }
+  .recipes .recipesBox .recipePic2 {
+    margin: 0 auto;
+  }
+  .recipes .recipesBox .recipePic3 {
+    margin: 0 auto;
+  }
+  .recipes .recipesBox .recipePic4 {
+    margin: 0 auto;
+  }
+  .recipes .recipesBox .recipePic5 {
+    margin: 0 auto;
+  }
+  .recipes .recipesBox .recipePic6 {
+    margin: 0 auto;
+  }
+  .recipes .recipesBox .recipePic7 {
+    margin: 0 auto;
+  }
+  .recipes .recipesBox .recipePic8 {
+    margin: 0 auto;
+  }
+  .recipes .recipesBox .recipePic9 {
+    margin: 0 auto;
+  }
+  .recipes .recipesBox p {
+    margin: 0 auto;
+  }
+}
+.about h1 {
+  font-family: "Amatic SC", cursive;
+  color: #ec4747;
+  font-size: 50px;
+  text-align: center;
+  padding-top: 50px;
+}
+.about h2 {
+  font-family: "Amatic SC", cursive;
+  color: black;
+  font-size: 30px;
+  padding-bottom: 20px;
+  text-align: center;
+  padding-top: 20px;
+}
+.about .top-content {
+  display: flex;
+  max-width: 900px;
+  margin: 0 auto;
+  justify-content: space-around;
+  padding-top: 20px;
+}
+.about .top-content .whyimg {
+  width: 300px;
+  height: 300px;
+  background-image: url(../images/covid.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.about .top-content .whyimg2 {
+  width: 300px;
+  height: 300px;
+  background-image: url(../images/donuthero.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.about .top-content .whyText {
+  font-size: 20px;
+  width: 500px;
+  padding-top: 90px;
+}
+.about .top-content .whoimg {
+  width: 300px;
+  height: 300px;
+  background-image: url(../images/chef.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.about .top-content .whoimg2 {
+  width: 300px;
+  height: 300px;
+  background-image: url(../images/iupui.png);
+  background-position: center;
+  background-size: cover;
+}
+
+@media only screen and (max-width: 1060px) {
+  .about {
+    padding: 20px;
+  }
+  .about .top-content {
+    flex-direction: column;
+  }
+  .about .top-content .whyimg {
+    margin: 0 auto;
+  }
+  .about .top-content .whyimg2 {
+    margin: 0 auto;
+  }
+  .about .top-content .whoimg {
+    margin: 0 auto;
+  }
+  .about .top-content .whoimg2 {
+    margin: 0 auto;
+  }
+  .about .top-content .whyText {
+    margin: 0 auto;
+    width: 400px;
+  }
+}

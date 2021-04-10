@@ -1,0 +1,177 @@
+.recipes {
+
+    width: 1200px;
+    margin: 0 auto;
+
+    h1 {
+        font-family: 'Amatic SC', cursive;
+        color: #ec4747;
+        font-size: 50px;
+        text-align: center;
+        padding-top: 50px;
+    }
+
+        
+    h2 {
+        font-family: 'Amatic SC', cursive;
+        color: black;
+        font-size: 30px;
+        padding-bottom: 20px;
+        text-align: center;
+        
+    }
+
+    .recipesBox {
+        display: flex;
+        justify-content: space-around;
+
+        .recipePic {
+            width: 300px;
+            height: 300px;
+            background-image: url(../images/cookies.webp);
+            background-position: center;
+            background-size: cover;
+        }
+
+        .recipePic2 {
+            width: 300px;
+            height: 300px;
+            background-image: url(../images/beef.webp);
+            background-position: center;
+            background-size: cover;
+        }
+
+        .recipePic3 {
+            width: 300px;
+            height: 300px;
+            background-image: url(../images/steak.jpg);
+            background-position: center;
+            background-size: cover;
+        }
+
+        .recipePic4 {
+            width: 300px;
+            height: 300px;
+            background-image: url(../images/waffle.webp);
+            background-position: center;
+            background-size: cover;
+        }
+
+        .recipePic5 {
+            width: 300px;
+            height: 300px;
+            background-image: url(../images//mashed.webp);
+            background-position: center;
+            background-size: cover;
+        }
+
+        .recipePic6 {
+            width: 300px;
+            height: 300px;
+            background-image: url(../images/carrot.webp);
+            background-position: center;
+            background-size: cover;
+        }
+
+        
+        .recipePic7 {
+            width: 300px;
+            height: 300px;
+            background-image: url(../images/chicken.webp);
+            background-position: center;
+            background-size: cover;
+        }
+
+        .recipePic8 {
+            width: 300px;
+            height: 300px;
+            background-image: url(../images/cook.webp);
+            background-position: center;
+            background-size: cover;
+        }
+
+        .recipePic9 {
+            width: 300px;
+            height: 300px;
+            background-image: url(../images/rice.webp);
+            background-position: center;
+            background-size: cover;
+        }
+
+
+        h3 {
+            color: black;
+            font-size: 30px;
+            padding-top: 50px;
+            text-align: center;
+        }
+
+        p {
+           color: black; 
+           width: 300px;
+           text-align: center;
+        }
+    }
+}
+
+@media only screen and (max-width: 1060px) {
+    .recipes {
+        
+        h1 {
+            margin-right: 720px;
+        }
+
+        h2 {
+            margin-right: 720px;
+        }
+
+        .recipesBox {
+            flex-direction: column;
+            margin-right: 720px;
+
+            
+        .recipePic {
+           
+            margin: 0 auto;
+        }
+
+        .recipePic2 {
+            margin: 0 auto;
+        }
+
+        .recipePic3 {
+            margin: 0 auto;
+        }
+
+        .recipePic4 {
+            margin: 0 auto;
+        }
+
+        .recipePic5 {
+            margin: 0 auto;
+        }
+
+        .recipePic6 {
+            margin: 0 auto;
+        }
+
+        
+        .recipePic7 {
+            margin: 0 auto;
+        }
+
+        .recipePic8 {
+            margin: 0 auto;
+        }
+
+        .recipePic9 {
+            margin: 0 auto;
+        }
+
+        p {
+            
+            margin: 0 auto;
+         }
+        }
+    }
+}

@@ -1,0 +1,35 @@
+nav {
+    height: 80px;
+    width: 100%;
+    //background-color: #f5e3d2;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    
+    div {
+        font-family: 'Dancing Script', cursive;
+        color: #ec4747;
+        font-size: 30px;
+    }
+
+    a {
+        text-decoration: none;
+        color: #ec4747;
+        font-size: 30px;
+        font-family: 'Amatic SC', cursive;
+        
+     
+    }
+    a:hover {
+        color: white;
+    }
+}
+
+@media only screen and (max-width: 1060px) {
+    nav {
+        
+        a {
+            padding-left: 10px;
+        }
+    }
+}

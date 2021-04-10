@@ -1,0 +1,106 @@
+.about {
+
+    h1 {
+        font-family: 'Amatic SC', cursive;
+        color: #ec4747;
+        font-size: 50px;
+        text-align: center;
+        padding-top: 50px;
+    }
+
+          
+    h2 {
+        font-family: 'Amatic SC', cursive;
+        color: black;
+        font-size: 30px;
+        padding-bottom: 20px;
+        text-align: center;
+        padding-top: 20px;
+    }
+
+
+    .top-content {
+        display: flex;
+        max-width: 900px;
+        margin: 0 auto;
+        justify-content: space-around;
+        padding-top: 20px;
+        
+
+        .whyimg{
+            width: 300px;
+            height: 300px;
+            background-image: url(../images/covid.jpg);
+            background-position: center;
+            background-size: cover;
+            
+        }
+
+        .whyimg2{
+            width: 300px;
+            height: 300px;
+            background-image: url(../images/donuthero.jpg);
+            background-position: center;
+            background-size: cover;
+            
+        }
+
+        .whyText {
+            font-size: 20px;
+            width: 500px;
+            padding-top: 90px;
+        }
+
+        .whoimg {
+            width: 300px;
+            height: 300px;
+            background-image: url(../images/chef.jpg);
+            background-position: center;
+            background-size: cover;
+        }
+
+        
+        .whoimg2 {
+            width: 300px;
+            height: 300px;
+            background-image: url(../images/iupui.png);
+            background-position: center;
+            background-size: cover;
+        }
+
+       
+     
+    }
+
+ 
+}
+
+@media only screen and (max-width: 1060px) {
+  .about {
+      padding: 20px;
+    .top-content {
+        flex-direction: column;
+
+        .whyimg {
+            margin: 0 auto;
+        }
+
+        .whyimg2 {
+            margin: 0 auto;
+        }
+
+        .whoimg {
+            margin: 0 auto;
+        }
+
+        .whoimg2 {
+            margin:  0 auto;
+        }
+
+        .whyText {
+            margin: 0 auto;
+            width: 400px;
+        }
+    }
+  }
+}

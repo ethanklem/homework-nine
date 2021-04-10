@@ -1,0 +1,59 @@
+.login {
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 200px;
+    
+
+    h1 {
+        color: #6CBBC4;
+        text-align: center;
+        padding-bottom: 10px;
+    }
+
+    .inputs {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+       
+        .user {
+            margin-bottom: 40px;
+            height: 50px;
+            background-color: white;
+        }
+
+        .pass {
+            margin-bottom: 40px;
+            height: 50px;
+            background-color: white;
+        }
+
+        ::placeholder {
+            color: #6CBBC4;
+            padding-left: 10px;
+        }
+    }
+
+    button {
+        color: #6CBBC4;
+        background-color: white;
+        width: 80px;
+        margin: 0 auto;
+        cursor: pointer;
+    }
+
+    .needaccount {
+        padding-top: 10px;
+        color: #ec4747;
+       
+        .createaccount {
+            color: #6CBBC4;
+            text-decoration: underline;
+        }
+    }
+}
+
+@media only screen and (max-width: 1060px) {
+  .login {
+      padding: 20px;
+  }
+}
