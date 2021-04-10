@@ -6,7 +6,7 @@ import * as MODEL from "../model/model.js";
 function init() {
 
 
-      let currentHeroImage = "home";
+    //   let currentHeroImage = "home";
 
    $("nav a").click(function(e) {
        let btnID = this.id;
@@ -14,11 +14,11 @@ function init() {
 
       
 
-       $(".hero")
-       .removeClass(`${currentHeroImage}-hero-image`)
-       .addClass(`${btnID}-hero-image`);
-       currentHeroImage = btnID;
-       $(".hero-content .page-name").html(btnID)
+    //    $(".hero")
+    //    .removeClass(`${currentHeroImage}-hero-image`)
+    //    .addClass(`${btnID}-hero-image`);
+    //    currentHeroImage = btnID;
+    //    $(".hero-content .page-name").html(btnID)
 
        MODEL.getPageContent(contentID);
    });
